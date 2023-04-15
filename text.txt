@@ -1,0 +1,27 @@
+@each comm starts e=with: git
+configure (global)name - git config --global user.name "abc"
+configure (global)email - git config --global user.email "abc@gmail.com"
+to see configuration - git config --list
+
+to go inside a folder - cd folder-name
+to make a folder - mkdir new-folder-name
+to view the new folder -cd new-folder-name
+to make new-folder-name -> working dir -code .
+
+ @how git works:
+working directory-> stagging area-> local repo.-> remote repo.
+   
+  test-project ---> git add  ---> git commit --> git push
+ @when working dir is in stagging area --> it is tracked
+ @when not in stagging area --> it is untracked
+
+to see status of dir , if its in staging area or not -> git status
+
+to add it:
+          01.initialize it --> git init
+          02.add it to st. area --> git add
+               @to add multiple files --> git add .
+to check hidden filesORfolders -> ls -file
+
+to see the modifications afere file is tracked --> git diff
+to restore (restage) -git restore <file-name>
