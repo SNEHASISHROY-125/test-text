@@ -1,4 +1,4 @@
-@each comm starts e=with: git
+@each comm starts with: git
 configure (global)name - git config --global user.name "abc"
 configure (global)email - git config --global user.email "abc@gmail.com"
 to see configuration - git config --list
@@ -25,3 +25,25 @@ to check hidden filesORfolders -> ls -file
 
 to see the modifications afere file is tracked --> git diff
 to restore (restage) -git restore <file-name>
+
+to commit --> git commit -m "<message>"
+                   @gives an unique id -> used for version controll
+to see commit history --> git log
+                @with a list of details; such as name ,commit-id ,author, date 
+                   @with less details -> git log --oneline
+to uncommit --> git reset --soft HEAD^
+              @going back to working dir -> git reset HEAD^
+                  @deleting all changes -> git reset --hard HEAD^
+to go back to another version of project -> git checkout <version-commit-id>
+to switch back to latest version -> git checkout master
+to see current version --> git show Head
+
+
+to add local repo to remote repo:
+                                   01.first time --> git remote add origin <URL of github(remote) repo>
+                                          01.1.rest of the time -->git remote add origin
+                                   02.git push -u origin <HEAD/Branch->name>
+
+to see if ther's a connection between local_repo <--> remote_repo --> git remote -v
+
+to pull from  remote/github repo --> git pull origin master
