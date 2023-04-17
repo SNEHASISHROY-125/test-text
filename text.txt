@@ -50,3 +50,32 @@ to pull from  remote/github repo --> git pull origin master
 
 to ingore a file from sharing --> @create < .gitignore > file and add the file that is to be excluded indide .gitignore file
                                      @create a temp folder and add temp/ inside .gitignore
+
+to document project (as an instruction or manual) --> ceate README.md file 
+                           heading -> # heading ; ## heading ; ### heading  <---font size changes of heading
+                           single line -> ` <line01> ` <space> enter    |--\   line01
+                                          ` <line02> ` <space> enter    |--/   line02 
+                           multi line ->  ` <line1> `  enter            |---\   line1 line2
+                                          ` <line2> `  enter            |---/
+
+               OR
+                          
+                           multiple line ->     ```
+                                                line1            ---\     line1
+                                                line2            --- >    line2
+                                                line3            ---/     line3
+                                            
+                                                ```
+                          
+to add list --> 1 list01
+                2 list02
+     @unorganised list -> - item1                   item1
+                          - item2            ---\   item2      
+     @nested list  ->       - item3          ---/     item3
+                            - item4                   item4
+
+ 
+to add links --> 01. paste link                 --\    link
+                                                --/    [tag] -embeeded with link
+                 02. [<add tag>](paste link)
+
