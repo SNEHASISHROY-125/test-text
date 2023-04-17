@@ -1,1 +1,2 @@
 test purpose for new features
+newb1 is the 2nd branch added to local repo
