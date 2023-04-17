@@ -79,3 +79,16 @@ to add links --> 01. paste link                 --\    link
                                                 --/    [tag] -embeeded with link
                  02. [<add tag>](paste link)
 
+to check how many branches do we have --> git branch
+to chech how many remote branches do we have -> git branch -r
+to check both remote and local branches -> git branch -a
+
+to create a new branch -> git branch <branch_name>            [ WHEN SWITCHING FROM PREVIOUS BRANCH
+                                                              [ THE NEW BRANCH GETS A COPY OF OF 
+to switch branches --> git checkout <branch_name>             [ PREVIOUS BRANCH
+
+@untill we push it remote the new branch will not appear on github; 2 ways:
+                                                                             -> <git add .> -> <git commit -m " "> -> merge with main branch then push as main barnch
+                                                                                                                                         OR
+                                                                                                                                           git push -u origin <branch_name>
+to del branch -> git branch -d <branch_name>
