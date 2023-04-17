@@ -47,3 +47,6 @@ to add local repo to remote repo:
 to see if ther's a connection between local_repo <--> remote_repo --> git remote -v
 
 to pull from  remote/github repo --> git pull origin master
+
+to ingore a file from sharing --> @create < .gitignore > file and add the file that is to be excluded indide .gitignore file
+                                     @create a temp folder and add temp/ inside .gitignore
