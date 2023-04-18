@@ -6,3 +6,4 @@ deleted newb1
 featur3 added to remote repo
 feature3 merged and deleted
 new branch shortcut-b created
+will be merged with master
