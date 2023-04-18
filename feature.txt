@@ -5,3 +5,4 @@ merged with master
 deleted newb1
 featur3 added to remote repo
 feature3 merged and deleted
+new branch name will be shortcut-b
