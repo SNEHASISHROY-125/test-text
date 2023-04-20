@@ -93,3 +93,10 @@ to switch branches --> git checkout <branch_name>             [ PREVIOUS BRANCH
                                                                                                                                            git push -u origin <branch_name>
 to del local branch -> git branch -d <branch_name>
 to del remote branch -> git push -d origin <branch_name>
+
+to contribute to other peoples repo --> 01.fork the repo 
+                                        02.clone it to local mechine: -> cd/users/snehasish/document
+                                                                      -> git clone <clone-url>
+to add collaborators --> settings -> add collaborators
+to publish pages --> settings -> gitub-pages
+                                                          
