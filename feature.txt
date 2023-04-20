@@ -8,3 +8,4 @@ feature3 merged and deleted
 new branch shortcut-b created
 will be merged with master
 1234
+5678
