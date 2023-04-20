@@ -91,4 +91,5 @@ to switch branches --> git checkout <branch_name>             [ PREVIOUS BRANCH
                                                                              -> <git add .> -> <git commit -m " "> -> merge with main branch then push as main barnch
                                                                                                                                          OR
                                                                                                                                            git push -u origin <branch_name>
-to del branch -> git branch -d <branch_name>
+to del local branch -> git branch -d <branch_name>
+to del remote branch -> git push -d origin <branch_name>
